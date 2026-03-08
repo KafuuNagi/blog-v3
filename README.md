@@ -1,69 +1,6 @@
-# 纸鹿摸鱼处
+Forked from [**Clarity**](https://github.com/L33Z22L11/blog-v3)
+具体情况见上游项目
 
-[![框架](https://img.shields.io/badge/框架-Nuxt-00DC82?logo=Nuxt.js)](https://nuxt.com/)
-[![CMS](https://img.shields.io/badge/CMS-Nuxt%20Content-00DC82?logo=Nuxt.js)](https://content.nuxt.com/)
-[![部署平台](https://img.shields.io/badge/部署平台-Vercel-000000?logo=Vercel)](https://vercel.com/)
-[![访问统计](https://img.shields.io/badge/访问统计-Umami-000000?logo=Umami)](https://github.com/umami-software/umami)
-[![代码风格](https://img.shields.io/badge/代码风格-ESLint-4B32C3?logo=ESLint)](https://eslint.org/)
-[![代码风格](https://img.shields.io/badge/代码风格-Stylelint-263238?logo=Stylelint)](https://stylelint.io/)
-
-我的第三代个人博客，于 2024 年 8 月 11 日上线。
-
-## 耻辱柱 / Hall of Shame
-
-> [!CAUTION]
-> - 部署前必须完成项目个性化配置与内容修改，不得将我的信息用于你的网站图标/名称，严禁将项目内我的文章以你的名义重新发布至公开环境。
-> - 部署前必须完成项目个性化配置与内容修改，不得将我的信息用于你的网站图标/名称，严禁将项目内我的文章以你的名义重新发布至公开环境。
-> - 部署前必须完成项目个性化配置与内容修改，不得将我的信息用于你的网站图标/名称，严禁将项目内我的文章以你的名义重新发布至公开环境。
-
-近期 Fork 项目后将我的文章部署在互联网且不遵守 CC 协议的行为增加，追查耗费了我巨大精力，因此我将直接将侵权网站列在下方，希望能减少此类现象的发生。
-
-<!-- 1. 2025-12-05 [钟神秀](https://github.com/zsxcoder/Nuxt-blog-v3)：blog.zsxcoder.top《我们的设备被拿来做了什么：软件的背景行为》 -->
-<!-- 2. 2025-12-28 [Axel Beta](https://github.com/ErenAxel/blog-v3)：sc.axel.xin《我们的设备被拿来做了什么：软件的背景行为》《深色模式开发的最佳实践》《寻不回手工油糕》 -->
-
-## 使用本主题的博客
-
-> [!WARNING]
->
-> 修改本项目需要具备**前端开发**和**项目部署**能力。由于这是个人博客，代码经过深度定制，且可能会进行较大幅度的更新，建议您 Fork 后安心使用自己分支的版本；若需引入上游（本仓库）的新功能，建议重新 Fork 最新代码，以避免同步冲突。
->
-> 如果需要协助或有问题咨询，欢迎加入 QQ 群 169994096 讨论/闲聊，我会在空闲时尽力解答。
-
-> 主题吸收了 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 的设计风格，命名为 **Clarity**，寓意清楚的阅读体验和清晰的观点表达。限于下游越来越多，未来将会有选择地收录。
-
-| 博客名称                                                       | 作者          | 对应上游版本 | 下游特色功能                                 |
-| -------------------------------------------------------------- | ------------- | ------------ | -------------------------------------------- |
-| **[纸鹿摸鱼处](https://blog.zhilu.site/)**                     | **L33Z22L11** | v3.6.3       | (我是上游)                                   |
-| [希乐博客](https://blog.xlenco.top/)                           | Xlenco        | v3.4.8       | 最新评论                                     |
-| [SteinsNote](https://blog.labmem.chat/)                        | Labmem-00     | v3.1-241112  | 专栏                                         |
-| [月空人](https://www.weilog.me/)                               | Whbbit1999    | v3.6.1       | 项目/博客/Snippets页                         |
-| [Mugzx's Blog](https://blog.mugzx.top/)                        | Mugzx         | v3.6.2       | 设计风格统一                                 |
-| [喵落阁](https://blog-v3.kemeow.top/)                          | Kemeow815     | v3.4.7       | 即刻+友圈+最新评论+游戏/番剧页               |
-| [梦爱吃鱼](https://blog.bsgun.cn/)                             | JLinmr        | v3.6.0       | 即刻+友圈+最新评论                           |
-| [Mikuの极光星](https://blog.sotkg.com/)                        | PaloMiku      | v3.6.0       | 设计风格统一，设置面板                       |
-| [Shenley的存档点](https://blog.shenley.cn/)                    | shenlye       | v3.4.4       | 游戏/番剧页，方形卡片+科技风                 |
-| [BiuXin-s Blog](https://zhilu.biuxin.com/)                     | damizai       | v3.2-250304  | 即刻+友圈+最新评论                           |
-| [液泡部落格](https://blog.vacu.top/)                           | VacuolePaoo   | v3.4.9       | 一言+标签tags+页脚随机友链                   |
-| [源境录](https://www.myxz.top/)                                | 661111        | v3.6.0-rc.2  | 即刻+友圈+Heo友链轮播/Profile                |
-| [落憾](https://blog.luoh.org/)                                 | LuoH-AN       | v3.6.1       | 即刻+一言+卡片Profile                        |
-| [落尘up](https://www.luochen.chat/)                            | luochenup     | v3.3.4       | 侧栏时间轴                                   |
-| [fishcpy的小破站](https://blog.fis.ink/)                       | fishcpy       | v3.4.8       | 友圈+Artalk评论                              |
-| [六月墨语](https://blog.june.ink/)                             | Akuma-real    | v3.6.0       | 友圈+最新评论                                |
-| [Cталин博客](https://blog.jiclub.site/)                        | StalinDev54   | v3.4.8       | 侧栏时间轴+关于页                            |
-| [栖童の小站](https://blog.linux-qitong.top/)                   | Linux-qitong  | v3.6.1       | 即刻+友圈                                    |
-| [墨韵云阁](https://luoyuanxiang.top/)                          | luoyuanxiang  | v3.6.0-rc.2  |                                              |
-| [鹊楠の小窝](https://blog.quenan.cn/)                          | QNquenan      | v3.4.9       |                                              |
-| [KingKangBlog](https://blog.kingkang.xyz/)                     | KingStoning   | v3.4.9       |                                              |
-| [LittleBun](https://blog.wl.do/)                               | CiZaii        | v3.5.1       |                                              |
-| [钟神秀](https://blog.zsxcoder.top/)                           | mcyzsx        | v3.6.0       |                                              |
-| [林间拾语](https://www.xhhao.com/?preview-theme=theme-clarity) | acanyo        | Halo         | https://www.halo.run/store/apps/app-jglhpodw |
-| [Wa 的小家](https://blog.gslpro.top/)                          | Shalomguan    | v3.5.2       |                                              |
-| [青序栈](https://qixz.cn/)                                     | scfcn         | v3.5.2       |                                              |
-| [Axel Beta](https://sc.axel.xin/)                              | ErenAxel      | v3.5.2       |                                              |
-
-## 特性
-
-[主题特性](https://blog.zhilu.site/theme) · [组件示例](https://blog.zhilu.site/previews/example)
 
 ## 目录结构
 
@@ -193,7 +130,7 @@ pnpm check:feed/all # 检测所有友链可访问性并生成报告
 
 ## 贡献
 
-欢迎参与项目：如果有具体问题或功能建议，可以发起 Issue；如果愿意在已确定的方向上增加功能或修复问题，可以提交 Pull Request。
+请向上游项目贡献
 
 ## 许可证
 
