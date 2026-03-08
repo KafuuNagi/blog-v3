@@ -45,7 +45,7 @@ export default defineAppConfig({
 
 		stats: {
 			/** 归档页面每年标题对应的年龄 */
-			birthYear: 2003,
+			birthYear: 2006,
 			/** blog-stats widget 的预置文本 */
 			wordCount: '约10万',
 		},
@@ -93,7 +93,7 @@ export default defineAppConfig({
 		/** 展示标题文本，否则展示纯 Logo */
 		showTitle: true,
 		subtitle: blogConfig.subtitle,
-		emojiTail: ['📄', '🦌', '🙌', '🐟', '🏖️'],
+		emojiTail: ['🌙', '🐇', '🌕'],
 	},
 
 	/** 友链页面 */
